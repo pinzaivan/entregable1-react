@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import "./styles/containerInfo.css"
+import "./styles/ContainerInfo.css"
 
 const ContainerInfo = ({quote, handlNewQuote}) => {
 
@@ -15,7 +15,7 @@ const ContainerInfo = ({quote, handlNewQuote}) => {
 
        <article className='containerInfo__author'>
       <h4>Fuente: {quote.author}</h4>
-      <h5>Autor: aIvan jojoa</h5>
+      <h5>Autor: Ivan jojoa</h5>
     </article>
       </section>
     </div>
