@@ -1,7 +1,7 @@
 import db from "./db/db.json"
 import './App.css'
 import { useState } from "react"
-import ContainerInfo from "./components/containerInfo"
+import ContainerInfo from "./components/containerInfo.jsx"
 
 
 const images = ["bg1","bg2", "bg3", "bg4"]
